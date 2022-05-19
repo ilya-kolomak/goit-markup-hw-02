@@ -1,6 +1,194 @@
-.span{
-  color:#2196F3;
+
+:root{
+  --general-color:#212121;
+  --aсcent-color:#2196F3;
+  --background-сolor: #2F303A ;
+  --text-color:#757575;
+  --litter-color-white:#ffffff;
+
 }
-a {
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list{
+  list-style: none;
+}
+
+.link{
+  color: var(--general-color);
   text-decoration: none;
+}
+.link:hover, 
+.link:focus{
+  color:var(--aсcent-color) ;
+}
+
+.top-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
+/* --------HEADER-------- */
+.logo{
+ text-decoration: none;
+ font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--general-color);
+}
+
+span{
+  color:var(--aсcent-color) ;
+}
+
+.header-list{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--general-color);
+}
+
+/* ------business_idea------- */
+.business_idea{
+  
+background-color:var(--background-сolor) ;
+}
+
+.idea-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: var(--litter-color-white);
+
+}
+.btn{
+  background-color: var(--aсcent-color);
+  font-family:inherit ;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: var(--litter-color-white);
+
+}
+/* -------PLAN------- */
+.plan-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+p{
+
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: var(--text-color);
+}
+/*---------PRISE-----------  */
+
+
+/* -----------OUR-TEAM------------ */
+
+h3{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--general-color);
+}
+ .team-text{
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+ }
+
+ /* --------FOOTER------ */
+ .footer{
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  
+  background: var(--background-сolor);
+}
+.footer-logo{
+color: var(--litter-color-white);
+}
+
+.footer-address{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.address{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--litter-color-white);
+}
+
+
+/* -------------PORTFOLIO--------------------- */
+
+.portfolio-list{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+  color: var(--general-color);
+}
+
+.portfolio-btn:hover{
+  color: var(--litter-color-white);
+  background-color: var(--aсcent-color);
+
+}
+.portfolio-btn:focus{
+  color: var(--litter-color-white);
+  background-color: var(--aсcent-color);
+
 }

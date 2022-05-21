@@ -9,7 +9,12 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--general-color);
+  background-color: var(--litter-color-white);
 }
 .visually-hidden {
   position: absolute;
@@ -40,9 +45,8 @@ body{
 .top-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 }
 
 
@@ -53,9 +57,11 @@ letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
-
 color: var(--general-color);
+}
+
+.link-nav:active{
+  color: var(--aсcent-color);
 }
 
 span{
@@ -64,10 +70,16 @@ span{
 
 .header-list{
   font-weight: 500;
-font-size: 14px;
+color: var(--general-color);
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--general-color);
+}
+.header-link-list{
+  text-decoration: none;
+  color: var(--text-color);
+}
+.header-link-list:hover{
+  color: var(--aсcent-color);
 }
 
 /* ------business_idea------- */
@@ -80,7 +92,6 @@ background-color:var(--background-сolor) ;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
   
   text-align: center;
   letter-spacing: 0.06em;
@@ -128,14 +139,18 @@ color: var(--text-color);
 
 /* -----------OUR-TEAM------------ */
 
-h3{
-  font-weight: 500;
+.team-title-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: var(--general-color);
 }
  .team-text{
+  font-family: 'Roboto';
+  font-style: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -170,17 +185,13 @@ letter-spacing: 0.03em;
 color: var(--litter-color-white);
 }
 
+.address,
+.footer-address{
+  font-style:normal;
+}
 
 /* -------------PORTFOLIO--------------------- */
 
-.portfolio-list{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  letter-spacing: 0.03em;
-  color: var(--general-color);
-}
 
 .portfolio-btn:hover{
   color: var(--litter-color-white);
@@ -192,3 +203,10 @@ color: var(--litter-color-white);
   background-color: var(--aсcent-color);
 
 }
+ .portfolio-link{
+  text-decoration: none;
+  color: var(--general-color);
+}
+
+
+

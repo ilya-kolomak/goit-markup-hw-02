@@ -60,9 +60,10 @@ line-height: 1.19;
 color: var(--general-color);
 }
 
-.link-nav:active{
+.currentlink{
   color: var(--aсcent-color);
 }
+
 
 span{
   color:var(--aсcent-color) ;
@@ -192,6 +193,17 @@ color: var(--litter-color-white);
 
 /* -------------PORTFOLIO--------------------- */
 
+.portfolio-btn{
+  cursor: pointer;
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color:var(--general-color);
+
+}
 
 .portfolio-btn:hover{
   color: var(--litter-color-white);
@@ -208,5 +220,17 @@ color: var(--litter-color-white);
   color: var(--general-color);
 }
 
+.portfolio-title{
 
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--general-color)
+}
 
+.portfolio-text{
+font-size: 16px;
+line-height: 1.88px;
+color: var(--text-color);
+}
